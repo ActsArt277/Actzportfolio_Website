@@ -1,224 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Digital resume and portfolio of 
-  Acts Nimely Frontend Developer"> 
-    <title>Acts Nimely - Frontend Developer </title>
-    <link rel="stylesheet" href="Stylesheet.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Acts Nimely — frontend developer and data analyst portfolio">
+  <title>Acts Nimely · Frontend Developer</title>
+  <link rel="stylesheet" href="Stylesheet.css">
 </head>
 <body>
-   <header class="site-header">
-<nav class=" nav container">
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Acts Nimely home">Acts<span>.dev</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--sm" href="Web%20Developemnt%20Resume.docx" download="Acts Nimely Resume.docx">Download resume</a>
+      </div>
+    </nav>
+  </header>
 
-    <a class="brand" href="#top">Acts <span>.dev</span></a>
-    <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Project</a></li>  
-         <li><a href="#education">Education</a></li>  
-          <li><a href="#contact">Contact</a></li>
-         <li><a class="btn btn--sm" href="Web%20Developemnt%20Resume.docx" download="Web Developemnt Resume.docx">Download Resume</a></li>  
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Frontend developer · Data analyst</p>
+          <h1>Building clear, useful digital experiences.</h1>
+          <p class="lead">I’m Acts Nimely, a frontend developer and data analyst focused on thoughtful interfaces, reliable data, and practical solutions.</p>
+          <div class="hero-action">
+            <a class="btn" href="#projects">View my work <span aria-hidden="true">↗</span></a>
+            <a class="btn btn--outline" href="#contact">Let’s connect</a>
+          </div>
+          <div class="hero-meta"><span>Based in Liberia</span><span>Available for opportunities</span></div>
+        </div>
+        <div class="hero-media">
+          <div class="image-frame"><img class="profile-pic" src="pic_1.jpeg" alt="Portrait of Acts Nimely" width="500" height="600"></div>
+          <p class="image-caption">Curious mind.<br>Continuous learner.</p>
+        </div>
+      </div>
+    </section>
 
+    <section id="about" class="section">
+      <div class="container split-section">
+        <p class="section-kicker">01 / About</p>
+        <div><h2 class="section-title">Designing with purpose and learning by doing.</h2><p class="body-copy">I’m a motivated Information Technology student with hands-on experience in SQL, data visualization, and website management. I enjoy turning complex ideas into simple, accessible experiences and bringing a careful, analytical mindset to every project.</p></div>
+      </div>
+    </section>
 
-    </ul>
-</nav>
+    <section id="skills" class="section section--alt">
+      <div class="container split-section">
+        <p class="section-kicker">02 / Expertise</p>
+        <div class="skills-grid">
+          <article class="skill"><span class="skill-number">01</span><h3>Frontend development</h3><p>HTML, CSS, JavaScript, React, responsive layouts, and accessible interfaces.</p></article>
+          <article class="skill"><span class="skill-number">02</span><h3>Data &amp; analytics</h3><p>MySQL, PostgreSQL, Python, pandas, data cleaning, and Power BI visualizations.</p></article>
+          <article class="skill"><span class="skill-number">03</span><h3>Web management</h3><p>WordPress, Shopify, content systems, and practical website maintenance.</p></article>
+          <article class="skill"><span class="skill-number">04</span><h3>Tools &amp; workflow</h3><p>Git, GitHub, Microsoft Office, basic networking, and collaborative delivery.</p></article>
+        </div>
+      </div>
+    </section>
 
-   </header> 
+    <section id="projects" class="section">
+      <div class="container"><div class="section-heading"><p class="section-kicker">03 / Selected work</p><h2 class="section-title">A few things I’ve built.</h2></div>
+        <div class="projects-list">
+          <article class="project"><div class="project-thumb project-thumb--1"><span>01</span></div><div class="project-content"><p class="project-type">Interface design</p><h3>Product landing page</h3><p>A responsive marketing page with a focused hero, feature grid, and clear call to action.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Flexbox</span></div></div></article>
+          <article class="project"><div class="project-thumb project-thumb--2"><span>02</span></div><div class="project-content"><p class="project-type">Web application</p><h3>Task tracker</h3><p>An interactive to-do experience for adding, completing, and managing everyday tasks.</p><div class="tags"><span class="tag">JavaScript</span><span class="tag">DOM</span><span class="tag">React</span></div></div></article>
+          <article class="project"><div class="project-thumb project-thumb--3"><span>03</span></div><div class="project-content"><p class="project-type">Data product</p><h3>Weather dashboard</h3><p>A city search dashboard that presents live weather information through a friendly interface.</p><div class="tags"><span class="tag">React</span><span class="tag">APIs</span></div></div></article>
+        </div>
+      </div>
+    </section>
 
-<main id="top">
+    <section id="education" class="section section--alt"><div class="container split-section"><p class="section-kicker">04 / Education</p><div class="timeline"><article><span>2026 — Present</span><h3>Bachelor of Information Technology</h3><p>Starz University Liberia</p></article><article><span>2022</span><h3>Certificate in Programming</h3><p>Innovation Hub Liberia</p></article><article><span>2022</span><h3>High School Certificate</h3><p>New Jerusalem A.G High School</p></article></div></div></section>
 
-            <!--Hero-->
-<section class="hero">
-    <div class="container hero-grid">
-              <div class="hero-text">
-<p class="eyebrow">Frontend Developer/Data Analyst</p>  
-<h1> Acts Nimely </h1>
-        <p class="lead">
-    <p>
-  I am a Data Analyst and front-end developer with a quality experience in SQL (MySQL and PostgreSQL) Website Design and Management (WordPress and Shopify)
-Data Visualization using (Power Bi)  Basic Networking Knowledge using (Wireshark)
-Data Analysis and  using python pandas for the data cleaning and sorting (ML)
-Microsoft Office Suits Excel, word, and Power Point 
-</p>
-    </p>              
+    <section id="contact" class="section contact-section"><div class="container contact-grid"><div><p class="section-kicker">05 / Contact</p><h2 class="section-title">Have a project in mind?</h2><p class="body-copy">I’m always open to learning, collaborating, and building something useful.</p></div><form class="contact-form" action="mailto:nimelyacts200@gmail.com" method="post" enctype="text/plain"><label for="name">Name<input id="name" name="name" type="text" placeholder="Your name" required></label><label for="email">Email<input id="email" name="email" type="email" placeholder="you@example.com" required></label><label for="message">Message<textarea id="message" name="message" rows="4" placeholder="Tell me a little about your project..." required></textarea></label><button class="btn" type="submit">Send message <span aria-hidden="true">↗</span></button></form></div></section>
+  </main>
 
-        <div class="hero-action">
-            <a class="btn" href="#projects">View My Work</a>
-<a class="btn btn--outline" href="Web%20Developemnt%20Resume.docx" download="Web Developemnt Resume.docx">Download Resume</a>
-        </div>
-
-                </div>
-                <div class="hero-media">
-                   <img class="profile-pic" src="pic_1.jpeg" alt="Acts Nimely" width="240" height="240"> 
-                </div>
-    </div>
-</section>
-
-    <!--About Section-->
-<section id="about" class="section">
-    <div class=" container">
-        <h2 class="section-title">About Me</h2>
-        <div class="card"> 
-            <p> 
-                <p>
-    Motivated and hardworking student pursuing a degree in Database Administration, with two years of hands-on experience using SQL in both MySQL and PostgreSQL environments. Possesses additional skills in Data Visualization Using (Power BI) and Website Design and Management (CMS), with a strong interest in applying technical knowledge to real-world projects.
-
- 
-</p>
-            </p>
-        </div>
-    </div>
-</section>
-
-<!--Skills (List + Responsive Grid)-->
-
-<section id="skills"    class="section section--alt">
-    <div class="container">
-        <h2 class="section-title"> Skills</h2>
-        <ul class="skills-grid">
-            <li class="card skill">
-                <h3>HTML 5</h3>
-                <p>Semantic, accessible structure. </p>
-            </li>
-
-            <li class="card skill">
-                <h3>CSS 3</h3>
-                <p>Box Model, Variables, theming. </p>
-            </li>
-
-            <li class="card skill">
-                <h3> Responsive Design</h3>
-                <p>Flexbox, Grid, media querits. </p>
-            </li>
-
-            <li class="card skill">
-                <h3> JavaScript</h3>
-                <p>DOM, Events, Fetch &amp; APIs </p>
-            </li>
-
-            <li class="card skill">
-                <h3> React </h3>
-                <p>Components, props Status, Hooks </p>
-            </li>
-
-            <li class="card skill">
-                <h3>Git &amp; Github</h3>
-                <p>Version Control,  &amp; collaboration. </p>
-            </li>
-
-        </ul>
-    </div>
-</section>
-<!--Project Section-->
-<section id="projects"   class="section">
-    <div class="container">
-        <h2 class="section-title"> Projects</h2>
-        <div>
-            <article class="card project">
-                <div class="project-thumb project-thumb--1" aria-hidden="true"> </div>
-                <h3> Product Landing Page</h3>
-                <p> A Fully responsive marketing page with a hero, feature grid, and call-to-action</p>
-
-                <p class="tags">
-                    <span class="tag">HTML</span>
-                    <span class="tag">CSS</span>
-                    <span class="tag">Flexbox</span>
-                </p>
-                <a href="#">View Project</a>
-            </article>
-
-            <article class="card project">
-                <div  class="project-thumb project-thumb--2" aria-hidden="true"> </div>
-                <h3> Task Tracker </h3>
-                <p> An interactive to do app: add, couplete, and delet using task using the DOM and 3events. </p>
-
-                <p class="tags" >
-                    <span class="tag">JavaScript</span>
-                    <span class="tag">DOM</span>
-                    <span class="tag">React</span>
-                </p>
-                <a class="link" href="#">View Project</a>
-            </article>
-
-            <article class="card project">
-                <div class="project-thumb project-thumb--3" aria-hidden="true"> </div>
-                <h3> Weather Dashboard</h3>
-                <p> Search any city and see live weather, build with React and a public API. </p>
-
-                <p class="tags">
-                    <span class="tag">React</span>
-                    <span class="tag">APIs</span>
-
-                </p >
-                <a href="#">View Project</a>
-            </article >
-
-        </div>
-        </div>
-        </section>
-
-<!--Education section-->
-
-        <section id="education"   class="section section--alt">
-            <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="card table-wrap">
-                <table>
-                    <caption class="sr-only"> Education history</caption>
-                    <thead>
-                        <tr><th scope="col">program</th><th scope="col">institution</th><th scope="col"> year</th></tr>
-                    </thead>
-            <tbody>
-            <tr><td>Bachelor of Information Technology</td><td>Starz University Liberia</td><td>2026 - Present</td></tr>
-            <tr><td>Certificate in Programming</td><td>Innovation Hub Liberia</td><td>2022</td></tr>
-<tr><td>High School Certificate</td><td>New Jerusalem A.G High School</td><td>2022</td></tr>
-              </tbody>
-            </table>
-            </div>
-            </section> 
-                
-            <!--contact-->
-            <section id="contact" class="section">
-                <div class="container">
-                    <h2 class="section-title">Get in touch</h2>
-                      <form class="card contact-form" action="#"  method="post">
-                      <div class="form-row"> 
-                        <div class="field">
-                            <label for= "name">Name</label>
-                            <input id="name" name="name" type="text" placeholder="your name" required>
-                        </div>
-                        <div class="field">
-                            <label for="email"> email</label>
-                            <input id="email" name="email" type="email" placeholder="your@example.com" required>
-                        </div>
-                      </div>
-                      <div class="field">
-                        <label for="message">message</label>
-                        <textarea name="message" id="message" rows="4" placeholder="say hello..." required></textarea>
-                      </div>
-
-                      <button class="btn" type="submit">send message</button>
-                      </form>
-                </div>
-            </section>
-</main>
-<!--footer section-->
-<footer class="site-footer">
-<div class="container footer-grid">
-<p> &copy; 2026 Acts Nimely. All rights reserved.</p>
-<ul class="footer-links">
-    <li><a href="www.linkedin.com/in/
-acts-nimely-553a77385">LinkedIn</a></li>
-
-    <li><a href="nimelyacts200@gmail.com">GitHub</a></li>
-    <li><a href="nimelyacts765@gmail.com">email</a></li>
-</ul>
-</div>
-</footer>
-
-
+  <footer class="site-footer"><div class="container footer-grid"><p>© 2026 Acts Nimely</p><div class="footer-links"><a href="mailto:nimelyacts200@gmail.com">Email</a><a href="https://www.linkedin.com/in/acts-nimely-553a77385" target="_blank" rel="noreferrer">LinkedIn</a><a href="Web%20Developemnt%20Resume.docx" download>Resume</a></div></div></footer>
 </body>
 </html>
